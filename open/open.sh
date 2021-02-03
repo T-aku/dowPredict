@@ -1,0 +1,1 @@
+go run /home/ec2-user/golang/open/main.go

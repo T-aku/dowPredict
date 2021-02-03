@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <title></title>
+    <style>
+      .btn-square-bull {
+        display: inline-block;
+        padding: 0.5em 1em;
+        text-decoration: none;
+        background: red;/*ボタン色*/
+        color: #000;
+        border-bottom: solid 4px #627295;
+        border-radius: 3px;
+        width: 700px;
+        height: 200px;
+        font-size: 50px;
+        font-weight: bold;
+      }
+      .btn-square-bull:active {
+        /*ボタンを押したとき*/
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);/*下に動く*/
+        border-bottom: none;/*線を消す*/
+      }
+      .btn-square-bear {
+        display: inline-block;
+        padding: 0.5em 1em;
+        text-decoration: none;
+        background: #668ad8;/*ボタン色*/
+        color: #000;
+        border-bottom: solid 4px #627295;
+        border-radius: 3px;
+        width: 700px;
+        height: 200px;
+        font-size: 50px;
+        font-weight: bold;
+      }
+      .btn-square-bear:active {
+        /*ボタンを押したとき*/
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);/*下に動く*/
+        border-bottom: none;/*線を消す*/
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+      <form action="/taguchibull" method="post">
+        <input type="submit" value="田口あげあげぼたん" class="btn-square-bull">
+      </form>
+      <br>
+      <br>
+      <br>
+      <form action="/taguchibear" method="post">
+        <input type="submit" value="田口さげさげぼたん" class="btn-square-bear">
+      </form>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <form action="/shimogaibull" method="post">
+        <input type="submit" value="しもがいあげあげぼたん" class="btn-square-bull">
+      </form>
+      <br>
+      <br>
+      <br>
+      <form action="/shimogaibear" method="post">
+        <input type="submit" value="しもがいさげさげぼたん" class="btn-square-bear">
+      </form>
+    </center>
+  </body>
+</html>
